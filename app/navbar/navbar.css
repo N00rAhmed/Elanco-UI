@@ -1,32 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-.elanco-logo {
-    float:left;
-    width:10%;
-    height: 100%;
-    text-align: center;
-    color: white;
-    font-family: "Open-Sans", sans-serif;
-}
-
-.link-container{
-    width: 100%;
-    height: 10%;
+.container {
+    position: fixed;
     top: 0;
     left: 0;
-    position: absolute;
-    right: 30%;
+    right: 0;
+    z-index: 1000;
+}
+.elanco-logo {
+    float: left;
+    width: 8%;
+    height: 100%;
+}
+
+.link-container {
+    width: 100%;
+    height: 10%;
+    position: relative;
     background-color: #2171b8;
-    font-family: "Open-Sans", sans-serif;
+    overflow: hidden; /* Ensure links don't overflow */
 }
 
 .redirect {
-    float:left;
-    width:20%;
+    float: left;
+    width: 20%; /* Adjust as needed for responsiveness */
     height: 100%;
     text-align: center;
     color: white;
-    line-height:50px;
+    line-height: 50px;
     text-decoration: none;
-    font-family: "Open-Sans", sans-serif;
-}
+    }
 
+@media screen and (max-width: 310px) {
+    .elanco-logo {
+        width: 100%;
+        }
+
+    .redirect {
+        width: 100%; /* Take full width on smaller screens */
+    }
+}

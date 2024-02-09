@@ -3,31 +3,35 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* width: 50%; */
-    /* height: 2.5%; */
     align-items: center;
-    font-family: "Open-Sans", sans-serif;
+}
 
+.signup-container, .signup-container2{
+    text-align: center;
+    width:50%;
+    height: 100vh;
+    padding-top: 240px;
 }
 
 .signup-container{
-    padding-top: 250px;
-    text-align: center;
     float: left;
     color: white;
-    width: 50%;
-    height: 900px;
-    font-family: "Open-Sans", sans-serif;
-
-
     background-color: #02253E;
 }
 
 .signup-container2{
-    padding-top: 80px;
-    text-align: center;
     float: right;
-    width: 50%;
-    height: 900px;
-    font-family: "Open-Sans", sans-serif;
+}
+
+.signup-container > h1{
+    padding-top: 150px;
+}
+
+@media screen and (max-width:800px){
+    .signup-container, .signup-container2 {
+        width: 100%;
+        height: 55vh;
+        float: none;
+        padding-top: 130px;
+    }
 }
