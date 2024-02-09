@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.info-container{
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 2%;
+    color: white;
+    width: 98%;
+    height: 10%;
+    font-family: "Open-Sans", sans-serif;
+    border-radius: 25px;
+    margin: auto;
+
+
+    background-color: #1e609d;
+}
+
+h1 {
+    font-weight: 880;
+    font-size: 45px;
+    font-family: "Open-Sans", sans-serif;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.info-light-left{
+    padding: 1%;
+    float: left;
+    text-align: left;
+    padding-left: 2%;
+    color: black;
+    width: 40%;
+    height: 10%;
+    font-family: "Open-Sans", sans-serif;
+    border-radius: 25px;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+
+
+    background-color: #F6F6F6;
+}
+
+.info-blue-left{
+    padding: 1%;
+    float: right;
+    text-align: left;
+    padding-left: 2%;
+    color: white;
+    width: 68%;
+    height: 10%;
+    font-family: "Open-Sans", sans-serif;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2%;
+
+
+    background-color: #2270B9;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Open-Sans", sans-serif;
+    text-align: left;
+}
+
+.image-container{
+    padding: 1%;
+    padding-right: 1%;
+    float: right;
+    text-align: center;
+    color: black;
+    height: 10%;
+    font-family: "Open-Sans", sans-serif;
+    border-radius: 25px;
+    margin: auto;
+    margin-right: 5%;
+    margin-top: 10%;
+    background-color: #02253E;
+}
+
+.image-container2{
+    padding: 1%;
+    padding-right: 1%;
+    float: left;
+    text-align: center;
+    color: black;
+    height: 10%;
+    font-family: "Open-Sans", sans-serif;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: #02253E;
+}
+
+img {
+    border-radius: 20px;
+}

@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .title{
     padding-top: 40px;
+    font-family: "Open-Sans", sans-serif;
 }
 
 body{
     padding: 1rem;
     font-size: 22px;
+    font-family: "Open-Sans", sans-serif;
 }
 
 .viewmore{
     float:right;
     text-decoration: underline;
+    font-family: "Open-Sans", sans-serif;
 }
 .card {
     background-color: dodgerblue;
     color: white;
     padding: 2rem;
+    font-family: "Open-Sans", sans-serif;
     height: 9rem;
 }
 
@@ -24,6 +29,7 @@ body{
     margin: 0 auto;
     display: grid;
     gap: 3rem;
+    font-family: "Open-Sans", sans-serif;
 }
 
 @media (min-width: 600px) {

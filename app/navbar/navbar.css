@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .elanco-logo {
     float:left;
     width:10%;
     height: 100%;
     text-align: center;
     color: white;
+    font-family: "Open-Sans", sans-serif;
 }
 
 .link-container{
@@ -14,6 +16,7 @@
     position: absolute;
     right: 30%;
     background-color: #2171b8;
+    font-family: "Open-Sans", sans-serif;
 }
 
 .redirect {
@@ -24,5 +27,6 @@
     color: white;
     line-height:50px;
     text-decoration: none;
+    font-family: "Open-Sans", sans-serif;
 }
 
