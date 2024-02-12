@@ -36,7 +36,7 @@ export default function Login() {
             <h1>New here?</h1>
             <h3>Please create your account by clicking sign up below</h3>
             <br></br>
-            <div>
+            <div id="button">
               <Button style={{width:"15%"}}>Sign up</Button>
             </div>
           </div>

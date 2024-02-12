@@ -52,7 +52,7 @@ export default function Register() {
             </div>
             <br/>
             <br/>
-            <div>
+            <div id="button">
               <Button style={{width: "15%"}}>Sign up</Button>
             </div>
           </div>

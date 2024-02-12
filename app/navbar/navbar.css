@@ -21,7 +21,7 @@
 
 .redirect {
     float: left;
-    width: 20%; /* Adjust as needed for responsiveness */
+    width: 20%;
     height: 100%;
     text-align: center;
     color: white;
@@ -29,12 +29,19 @@
     text-decoration: none;
     }
 
-@media screen and (max-width: 310px) {
-    .elanco-logo {
+@media screen and (max-width: 800px) {
+    .elanco-logo, .redirect {
+        float: none;
         width: 100%;
-        }
-
-    .redirect {
-        width: 100%; /* Take full width on smaller screens */
     }
+
+    .container{
+        position: static;
+    }
+
+    .elanco-logo{
+        max-width: 200px; /* Adjust as needed */
+        max-height: 90px;
+    }
+
 }

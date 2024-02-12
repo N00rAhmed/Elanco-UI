@@ -24,13 +24,16 @@ body{
 }
 
 .cards {
-    /* max-width: 1200px; */
-    width:1800px;
+    max-width:1800px;
     margin: 0 auto;
     display: grid;
     gap: 3rem;
     font-family: "Open-Sans", sans-serif;
 }
+
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
 
 @media (min-width: 600px) {
     .cards { grid-template-columns: repeat(3, 1fr); }

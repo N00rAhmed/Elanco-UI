@@ -24,7 +24,7 @@
 }
 
 .signup-container > h1{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 @media screen and (max-width:800px){
@@ -32,6 +32,14 @@
         width: 100%;
         height: 55vh;
         float: none;
-        padding-top: 130px;
+        padding-top: 10px;
+    }
+
+    .signup-container2{
+        padding-top: 0;
+    }
+
+    #button > Button {
+        min-width: 100px;
     }
 }

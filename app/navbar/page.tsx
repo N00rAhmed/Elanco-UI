@@ -12,7 +12,6 @@ export default function Nav(){
                 <Link className="redirect" href='/register'><p>Sign Up</p></Link>
                 <Link className="redirect" href='/about'><p>About</p></Link>
             </div>
-
         </div>
     )
 }
