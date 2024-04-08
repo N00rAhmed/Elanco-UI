@@ -19,10 +19,6 @@ Next.JS | Typescript | MaterialUI
    ```
    npm run dev
    ```
-3. Next, run the development server:
-   ```
-   npm run dev
-   ```
 4. Click on this URL:
 
    http://localhost:3000
